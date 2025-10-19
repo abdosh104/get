@@ -145,3 +145,6 @@ contract NFTPass is ERC721Enumerable, Ownable, ReentrancyGuard {
     fallback() external payable {}
 }
 
+git add .
+git commit -m "تحديث المشروع لعام 2025"
+git push origin main
