@@ -13,7 +13,7 @@ contract NFTPass is ERC721Enumerable, Ownable, ReentrancyGuard {
     // Configurable parameters
     uint256 public maxSupply;            // أقصى عدد من الـ NFTs
     uint256 public price;                // سعر الـ mint لكل توكن (بـ wei)
-    uint256 public maxPerWallet;         // الحد لكل محفظة
+    uint256 public maxPerWallet;  @       // الحد لكل محفظة
     bool public saleActive = false;      // بيع عام مفعل / غير مفعل
     bool public revealed = false;        // حالة ال-Reveal
 
