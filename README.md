@@ -1,4 +1,4 @@
-fddfdf// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
 /// NFT Pass contract (ERC-721) - Minting, reveal, per-wallet limit, owner controls
